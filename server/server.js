@@ -22,6 +22,7 @@ const allowedOrigins = [
   'http://localhost:5173',
   "https://erp-frontend-two-pink.vercel.app",
   'http://localhost:4173',
+  'https://erp-software-tawny.vercel.app',
   process.env.CLIENT_URL?.trim(),  // Handle potential whitespace
   process.env.ADMIN_URL?.trim()
 ].filter(Boolean); // Remove undefined values
